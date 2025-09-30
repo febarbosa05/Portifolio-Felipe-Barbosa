@@ -1,0 +1,119 @@
+body {
+      background-color: #0d0d0d;
+      color: #e0e0e0;
+      font-family: 'Courier New', monospace;
+      padding-top: 70px;
+    }
+
+    .menu {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 8px;
+      background-color: #1a1a1a !important;
+      border-bottom: 2px solid #9d4edd;
+    }
+
+    .navbar-brand, .nav-link {
+      color: #9d4edd !important;
+      font-weight: bold;
+    }
+
+    .nav-link:hover {
+      color: #ffffff !important;
+      text-shadow: 0 0 5px #9d4edd;
+    }
+
+    .home {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      padding: 50px 0;
+    }
+
+    .boxNome {
+      width: 50%;
+      min-width: 300px;
+      padding: 40px;
+    }
+
+    .sobreM {
+      font-size: 1.1rem;
+      margin-bottom: 15px;
+    }
+
+    .nome {
+      color: #9d4edd;
+      font-size: 2.2rem;
+    }
+
+    .fotoPerfil {
+      border-radius: 50%;
+      width: 350px;
+      max-width: 100%;
+      box-shadow: 0 0 20px #9d4edd;
+    }
+
+    article {
+      padding: 60px 20px;
+      background-color: #1a1a1a;
+      border-top: 2px solid #9d4edd;
+      border-bottom: 2px solid #9d4edd;
+    }
+
+    article p {
+      font-size: 1.8rem;
+      color: #9d4edd;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .projeto-card {
+      background-color: #0d0d0d;
+      border: 1px solid #9d4edd;
+      border-radius: 10px;
+      overflow: hidden;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .projeto-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px #9d4edd;
+    }
+
+    .projeto-card img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .projeto-card .card-body {
+      text-align: center;
+      color: #e0e0e0;
+      font-weight: bold;
+      background-color: #1a1a1a;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    footer .Titulo {
+      font-size: 1.5rem;
+      color: #9d4edd;
+      margin-bottom: 20px;
+    }
+
+    .Apps {
+      width: 60px;
+      margin: 10px;
+      transition: transform 0.2s ease, filter 0.2s ease;
+    }
+    
+    .Apps:hover {
+      transform: scale(1.2);
+      filter: drop-shadow(0px 0px 8px #9d4edd);
+    }
